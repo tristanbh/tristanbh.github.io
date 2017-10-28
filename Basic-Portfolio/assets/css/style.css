@@ -1,0 +1,215 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans',Proxima, "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 18px;
+  line-height: 100%;
+  background: #f8f8f8;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  background-color: #00aec8;
+  font-weight: 300;	
+}
+
+li {
+  float: left;
+}
+
+li a {
+  color: #fff;
+  text-align: center;
+  padding: 0 10px;
+  text-decoration: none;
+}
+
+li a:hover {
+
+  color: #33788a;
+}
+
+.header_full {
+  	background-color: #00aec8;
+  	width: 100%;
+  	height: 80px;
+  	top:0;
+  	left:0;
+  	position: absolute;
+	border-bottom: solid 6px #33788a;
+}
+
+header {
+	margin: auto;
+  	background-color: #00aec8;
+ 	width: 960px;
+  	height: 80px;
+	overflow: auto;
+	border-bottom: solid 6px #33788a;
+	margin-bottom: 5px;
+	vertical-align: bottom;
+}
+
+.header_name .header_name_child {
+	font-family: 'Merriweather', serif, "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  	font-size: 44px;
+	font-weight: 100;
+	color: #fff;
+	text-align: center;
+	position: absolute;
+	bottom: 10px;
+	float: left;
+
+
+}
+
+.nav {
+	float: right;
+	background: #00aec8;
+	width: 350px;
+	height: 80px;
+	bottom: 8px;
+	position: inherit;
+}
+
+.nav_child {
+	float: right;
+	width: 350px;
+	height: auto;
+	bottom: 2px;
+	position: absolute;
+	color: #33788a ;
+}
+
+.main_container {
+  	width: 960px;
+  	height: 100%;
+	margin: auto;
+	clear:both;
+}
+
+.main_spacer{
+  	width: 960px;
+  	height: 100%;
+	margin: auto;
+	position: absolute;
+	top:86px;
+}
+
+
+.main_content_header{
+	float: left;
+	width: 630px;
+	font-family: Merriweather,'Open Sans',Proxima, "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	padding-left: 20px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	background-color: #fff;
+	height: 65px;
+	line-height: 95px;
+	font-size: 35px;
+	font-weight: 100;
+	color: #00aec8;
+	border-bottom: solid 2px #00aec8;
+}
+
+.main_content{
+  float: left;
+  width: 630px;
+  font-family: 'Open Sans',Proxima, "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 16px;
+  color: #33788a;
+  background-color: #fff;
+  height: auto;
+  align-content: center;
+  padding: 10px;
+  height: 100%;
+}
+
+.sidebar_header{
+  	width: 300px;
+  	height: auto;
+	margin-top: 50px;
+	float: right;
+	background-color: #fff;
+	font-family: 'Open Sans',Proxima, "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: 300;
+	font-size: 22px;
+	color: #00aec8;
+	text-align: center;
+	padding-top: 8px;
+	padding-bottom: 4px;
+	border-bottom: solid 2px #00aec8;
+}
+
+.sidebar {
+  	width: 300px;
+  	height: 200px;
+	margin: auto;
+	float: right;
+	background-color: #fff;
+	font-family: 'Open Sans',Proxima, "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	color: #00aec8;
+	text-align: center;
+	margin-top: 8px;
+	font-style: none;
+
+}
+
+.side_link {
+	font-family: 'Open Sans',Proxima, "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	color: #00aec8;
+	text-align: center;
+	margin-top: 8px;
+	font-style: normal;
+
+}
+
+.portfolio {
+	width: 630px;
+	height: 1100px;
+	margin: auto;
+	padding-left: 40px;
+}
+
+.portfolio_image {
+  	width: 250px;
+  	height: 300px;
+  	float: left;
+  	padding: 10px;
+
+}
+
+.portfolio_title {
+  	font-style: 24px;
+  	position: relative;
+  	padding: 0;
+  	margin: 0;
+  	top: 280px;
+  	width: 250px;
+  	background-color: #00aec8;
+  	color: #fff;
+
+}
+
+.footer {
+	margin: auto;
+  	background: #fff;
+  	width: 100%;
+  	height: 50px;
+  	border-top: solid 2px #33788a;
+  	position: fixed;
+	overflow: auto;
+	bottom: 0;
+	left: 0;
+	font-family: 'Open Sans',Proxima, "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-size: 12px;
+	color: #00aec8;
+	line-height: 50px;
+}
