@@ -1,0 +1,213 @@
+
+
+
+
+body {
+	padding: 0;
+	margin: 0;
+	background-color: #efefea;
+	font-family: 'Open Sans', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: 300;
+	color: #1c1c1c;
+
+
+}
+
+.container {
+	background-color: #fff;
+	height: 100%;
+}
+
+.header_title {
+	font-family:  'Open Sans',"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-size: 30px;
+	color: #1c1c1c;
+	height: 40px;
+	border-bottom: solid 1px #9de4ea;
+	width: 100%;
+	float: left;
+	text-align: left;
+	background-color: #fff;
+	font-weight: 300;
+}
+
+ul {
+	float: right;
+  	list-style-type: none;
+  	margin: 0;
+  	overflow: hidden;
+  	background-color: #fff;
+  	font-weight: 400;
+  	font-size: 16px;	
+  	color: #1c1c1c;
+  	text-align: right;
+}
+
+li {
+	
+}
+
+li a {
+  	color: #383838
+  	padding: 0 0px;
+  	text-decoration: none;
+
+}
+
+li a:hover {
+	color: #1c1c1c;
+ 	background-color: #9de4ea;
+}
+
+a {
+  	color: #1c1c1c;
+  	padding: 0 0px;
+  	text-decoration: none;
+  	font-weight: 300;
+
+}
+
+a:hover {
+	color: #9de4ea;
+ 	background-color:;
+ 	font-weight: 300;
+ 	text-decoration: none;
+
+}
+
+.nav {
+	background-color: #fff;
+
+}
+
+.main_index .jumbotron {
+	position: relative;
+	background-image: url("../images/jumbotron.jpg");
+	width:100%;
+	height: 350px;
+	margin:0;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: top;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.main_portfolio .jumbotron {
+	position: relative;
+	background-image: url("../images/main_portfolio.jpg");
+	width:100%;
+	height: 350px;
+	margin:0;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: top;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.main_contact .jumbotron {
+	position: relative;
+	background-image: url("../images/main_contact.jpg");
+	width:100%;
+	height: 350px;
+	margin:0;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: top;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.two .jumbotron {
+	position: relative;
+	background-color: #fff;
+	width:100%;
+	height: 100%;
+	margin:0;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: top;
+	-webkit-background-size: cover;
+	background-size: cover;
+	padding-bottom: 15px;
+	padding-top: 25px;
+	margin-bottom: 0;
+}
+
+.main_content_header {
+	font-family:  'Open Sans',"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	margin-left: 15px;
+	text-align: center;
+	border-bottom: solid 1px #9de4ea;
+	font-weight: 300;
+	margin-left: 25px;
+	margin-top: 15px;
+	margin-right:25px;
+
+}
+
+.main_content {
+	margin-left: 15px;
+	text-align: left;
+	line-height: 25px;
+
+}
+
+.main_contact {
+
+	margin-bottom: 10px;
+
+}
+
+.side_content_header {
+	font-family:  'Open Sans',"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	margin-left: 15px;
+	text-align: center;
+	border-bottom: solid 1px #9de4ea;
+	font-weight: 300;
+	margin-left: 25px;
+	margin-top: 15px;
+	margin-right:25px;
+	margin-bottom: 15px;
+
+}
+.fa {
+	padding: 5px;
+}
+
+
+
+.contact {
+	clear: both;
+	padding: 0;
+	margin: 0;
+}
+
+.portfolio_container{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+
+.portfolio_title {
+	font-family:  'Open Sans',"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-size: 20px;
+	text-align: center;
+	font-weight: 300;
+	margin-top: 15px;
+	position: relative;
+	border-bottom: solid 1px #9de4ea;
+	color: #1c1c1c;
+	clear: both;
+	overflow: auto;
+
+
+}
+
+.portfolio_image {
+	margin: auto;
+	width: 300px;
+
+}
