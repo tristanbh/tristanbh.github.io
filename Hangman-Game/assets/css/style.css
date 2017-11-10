@@ -1,0 +1,112 @@
+@font-face {
+	font-family: 'Thunderstorm';
+	src: url('assets/font/thunderstorm.eot');
+	src: url('assets/font/thunderstorm.eot?#iefix') format('embedded-opentype'),
+
+
+	     url('assets/font/thunderstorm.svg#youworkforthem') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+body {
+	background: #6FCCDD;
+}
+
+h1{
+	font-size: 80px;
+	color: #fff;
+	font-family: 'Thunderstorm', Helvetica, Arial, Sans-Serif;
+	letter-spacing: 5px;
+	font-style: normal;
+	font-weight: normal;
+	margin: 0;
+}
+
+.container {
+	/*border: 1px solid #000;*/
+	margin: auto;
+	width: 100%;
+
+}
+
+.word_wrapper {
+	width: 1000px;
+/*	border: 1px solid #000;*/
+	height: 300px;
+	margin: 0 auto;
+	position: relative;
+
+}
+
+header {
+	width: 60%;
+	height: 260px;
+	text-align: center;
+	font-size: 20px;
+	margin: 0px auto;
+	font-family: 'Thunderstorm', Helvetica, Arial, Sans-Serif;
+}
+
+.info_box {
+	width: 40%;
+	font-family: 'Open Sans',Proxima, "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  	font-size: 18px;
+  	height: 30px;
+  	text-align: center;
+  	margin: auto;
+  	color: #fff;
+}
+
+.left_portrait {
+	float: left;
+	margin: auto;
+	width: 250px;
+	position: relative;
+}
+
+.underscore	{
+	float: left;
+/*	border: 1px solid #000;*/
+	width: 450px;
+	height: 200px;
+	text-align: center;
+	font-size: 80px;
+	padding-top: 50px;
+	margin: auto;
+	color: #fff;
+	font-family: 'Thunderstorm', Helvetica, Arial, Sans-Serif;
+	position: relative;
+}
+.right_portrait {
+	float: left;	
+	margin: auto;
+	width: 250px;
+	position: relative;
+}
+.correctGuess {
+/*	border: 1px solid #000;*/
+	width: 60%;
+	height: 80px;
+	text-align: center;
+	font-size: 80px;
+	margin: 20px auto;
+	color: #fff;
+	font-family: 'Thunderstorm', Helvetica, Arial, Sans-Serif;
+
+}
+
+.wrongGuess {
+/*	border: 1px solid #000;*/
+	width: 60%;
+	height: 120px;
+	text-align: center;
+	font-size: 60px;
+	margin: 0 auto;
+	color: #fff;
+	letter-spacing: 5px;
+	font-family: 'Thunderstorm', Helvetica, Arial, Sans-Serif;
+
+}

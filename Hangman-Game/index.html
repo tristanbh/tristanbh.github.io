@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+ <meta charset="UTF-8">
+ <title>Hangman</title>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+<!-- Reset -->
+<link rel="stylesheet" href="assets/css/reset.css">
+<!-- CSS -->
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+	<header>
+		<center>
+			<img src='assets/images/header.png'>
+		</center>
+		</header>
+	<div class="container">
+		<div class="info_box">
+			<center><span>Try to guess the letters in this 80's bands name.</span></center>
+		</div>
+		<div class="word_wrapper">
+			<div class="left_portrait">
+				<img src='assets/images/portrait_01.png'>
+			</div>
+			<div class="underscore">
+			</div>
+			<div class="right_portrait">
+				<img src='assets/images/portrait_02.png'>
+			</div>
+		</div>
+	</div>
+<!-- 		<div class="correctGuess"></div> -->
+		<center>
+			<h1>Wrong Guesses!</h1>
+		</center>
+		<div class="wrongGuess"></div>
+	</div>
+	<center><img src="assets/images/delorean.png"></center>
+
+<script src="assets/script/hangman.js">
+</script>
+</body>
+</html>
